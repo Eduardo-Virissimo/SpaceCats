@@ -28,7 +28,6 @@ const HomePage = () => {
   return (
     <>
       <h1>HomePage</h1>
-      <p>{String(authenticated)}</p>
       <button onClick={handleLogout}>Logout</button>
       <ul>
         {users.map((user) => (
